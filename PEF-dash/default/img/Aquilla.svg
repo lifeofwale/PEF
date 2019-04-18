@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="43.219" viewBox="0 0 108 43.219">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;font-size:32px;font-family:MarkerFelt-Thin,Marker Felt;font-weight:200}.cls-2{font-family:MontserratAlternates-Regular,Montserrat Alternates;font-weight:400}.cls-3{fill:#59c9a5}.cls-4,.cls-5{stroke:none}.cls-5{fill:#1a936f}
+        </style>
+    </defs>
+    <g id="Group_125" data-name="Group 125" transform="translate(-96 -54.781)">
+        <text id="Aquilla" class="cls-1" transform="translate(96 90)">
+            <tspan x="0" y="0">A</tspan><tspan y="0" class="cls-2">qui</tspan><tspan y="0">ll</tspan><tspan y="0" class="cls-2">a</tspan>
+        </text>
+        <g id="Path_764" class="cls-3" data-name="Path 764">
+            <path d="M-6772.27 2801.22c-1.415 0-2.657-.608-3.407-1.666-.96-1.354-1.051-3.352-.254-5.625.901-2.572 2.835-4.6 4.299-5.849a20.748 20.748 0 0 1 2.206-1.64c-.976 1.463-2.86 4.638-2.327 6.638.177.666.604 1.148 1.267 1.434 1.342.58 1.982 1.84 1.71 3.374a4.58 4.58 0 0 1-1.122 2.258c-.6.646-1.343 1.025-2.092 1.067a4.89 4.89 0 0 1-.28.008z" class="cls-4" transform="translate(6936 -2731)"/>
+            <path d="M-6770.115 2787.15c-.421.3-.899.665-1.395 1.089-1.442 1.23-3.347 3.229-4.233 5.757-.774 2.21-.693 4.142.229 5.442.712 1.005 1.895 1.581 3.244 1.581.09 0 .18-.002.269-.008 1.56-.088 2.765-1.675 3.028-3.16.122-.69.212-2.377-1.592-3.155-.723-.312-1.187-.839-1.381-1.566-.466-1.748.822-4.324 1.831-5.98m1.393-1.369s-5.247 7.01-1.685 8.548c3.563 1.536 1.55 6.906-1.572 7.082a5.047 5.047 0 0 1-.29.008c-3.002 0-5.572-2.646-3.851-7.556 1.776-5.068 7.398-8.082 7.398-8.082z" class="cls-5" transform="translate(6936 -2731)"/>
+        </g>
+    </g>
+</svg>

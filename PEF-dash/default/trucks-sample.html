@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<title>PEF | POC</title>
+
+
+<!--[if lt IE 10]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+<link rel="icon" href="https://colorlib.com//polygon/admindek/files/assets/images/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="../files/bower_components/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="../files/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+
+<link rel="stylesheet" type="text/css" href="../files/assets/icon/feather/css/feather.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="../files/assets/icon/font-awesome/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="../files/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="../files/assets/css/pages.css">
+<link rel="stylesheet" href="css/jquery-steps.css">
+<!-- Demo stylesheet -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="loader-bg">
+<div class="loader-bar"></div>
+</div>
+
+<div id="pcoded" class="pcoded">
+<div class="pcoded-overlay-box"></div>
+<div class="pcoded-container navbar-wrapper">
+
+<nav class="navbar header-navbar pcoded-header">
+<div class="navbar-wrapper">
+<div class="navbar-logo">
+<a href="index-2.html">
+<img class="img-fluid logo-img" src="img/Aquilla.svg" alt="Theme-Logo" />
+</a>
+<a class="mobile-options waves-effect waves-light">
+    <i class="feather icon-more-horizontal"></i>
+    </a>
+</div>
+<div class="navbar-container container-fluid">
+<ul class="nav-left">
+
+
+<li>
+    <a class="mobile-menu" id="mobile-collapse" href="#!">
+        <i class="fa fa-bars"></i>
+       </a>
+      
+</li>
+
+</ul>
+<ul class="nav-right">
+<li class="header-notification">
+<div class="dropdown-primary dropdown">
+<div class="dropdown-toggle" data-toggle="dropdown">
+<i class="feather icon-bell"></i>
+<span class="badge bg-c-red">5</span>
+</div>
+<ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+<li>
+<h6>Notifications</h6>
+<label class="label label-danger">New</label>
+</li>
+<li> 
+<div class="media">
+<div class="media-body">
+<h5 class="notification-user">Joshua Oluwagbemiga</h5>
+<p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+<span class="notification-time">30 minutes ago</span>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+</li>
+
+<li class="user-profile header-notification">
+<div class="dropdown-primary dropdown">
+<div class="dropdown-toggle" data-toggle="dropdown">
+<span class="font-weight-bold">Joshua Oluwagbemiga
+
+</span>
+<i class="feather icon-chevron-down"></i>
+</div>
+<ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+<li>
+<a href="#!">
+<i class="feather icon-settings"></i> Settings
+</a>
+</li>
+<li>
+<a href="#">
+<i class="feather icon-user"></i> Profile
+</a>
+</li>
+
+
+<li>
+<a href="auth-sign-in-social.html">
+<i class="feather icon-log-out"></i> Logout
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="pcoded-main-container">
+<div class="pcoded-wrapper">
+
+<nav class="pcoded-navbar">
+<div class="nav-list">
+<div class="pcoded-inner-navbar main-menu">
+
+<ul class="pcoded-item pcoded-left-item">
+<li class="pcoded-hasmenu">
+<a href="javascript:void(0)" class="waves-effect waves-dark">
+        <span class="pcoded-micon mr-2">
+                <img src="img/tank-truck-light.svg" alt="truck light">
+               </span>
+<span class="pcoded-mtext">Dashboard</span>
+</a>
+<ul class="pcoded-submenu">
+<li class="">
+<a href="" class="waves-effect waves-dark">
+<span class="pcoded-mtext">Sample 1</span>
+</a>
+</li>
+<li class="">
+<a href="" class="waves-effect waves-dark">
+<span class="pcoded-mtext">Sample 2</span>
+</a>
+</li>
+</ul>
+</li>
+
+<li class="active pcoded-hasmenu">
+    <a href="javascript:void(0)" class="waves-effect waves-dark">
+            <span class="pcoded-micon mr-2">
+                    <img src="img/tank-truck-light.svg" alt="truck light">
+                   </span>
+    <span class="pcoded-mtext">Manage Tickets</span>
+    </a>
+    <ul class="pcoded-submenu">
+    <li class="active">
+    <a href="" class="waves-effect waves-dark">
+    <span class="pcoded-mtext">Register Trucks</span>
+    </a>
+    </li>
+    <li class="">
+    <a href="" class="waves-effect waves-dark">
+    <span class="pcoded-mtext">All Trucks</span>
+    </a>
+    </li>
+    </ul>
+    </li>
+
+    <li class="pcoded-hasmenu">
+            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                    <span class="pcoded-micon mr-2">
+                            <img src="img/tank-truck.svg" alt="truck light">
+                           </span>
+            <span class="pcoded-mtext">Loading and Dispatch</span>
+            </a>
+            <ul class="pcoded-submenu">
+            <li class="">
+            <a href="" class="waves-effect waves-dark">
+            <span class="pcoded-mtext">Upload Tickets</span>
+            </a>
+            </li>
+            <li class="">
+            <a href="" class="waves-effect waves-dark">
+            <span class="pcoded-mtext">All Tickets</span>
+            </a>
+            </li>
+            </ul>
+            </li>
+
+
+</ul>
+
+
+</li>
+
+
+
+</ul>
+ 
+<!-- stop here -->
+
+</div>
+</div>
+</nav>
+
+<div class="pcoded-content">
+
+<div class="page-header card">
+<div class="row align-items-end">
+<div class="col-lg-12">
+<div class="d-flex justify-content-start border-close">
+        <img class="mr-2" src="img/img/tank-truck-green.svg" alt="">
+        <h5 class="p-24">Truck Registration</h5>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="pcoded-inner-content pt-0">
+<div class="main-body">
+<div class="page-wrapper pt-0">
+    <div class="container-fluid custom-padding mb-5">
+        <form id="regForm">
+            <!-- <div class="d-flex justify-content-start">
+                <div class="request--step circle-number-active mr-3">
+                    <div class="d-inline-block mr-1">
+                       <div class="circle-number">1</div>
+                    </div>
+                    <span>
+                        Company Information
+                    </span>
+                  </div>
+                  <div class="request--step mr-3">
+                    <div class="d-inline-block mr-1">
+                       <div class="circle-number">2</div>
+                    </div>
+                    <span>
+                            Head Information
+                    </span>
+                  </div>
+                  <div class="request--step mr-3">
+                    <div class="d-inline-block mr-1">
+                       <div class="circle-number">3</div>
+                    </div>
+                    <span>
+                            Tail Information
+                    </span>
+                  </div>
+                  <div class="request--step mr-3">
+                    <div class="d-inline-block mr-1">
+                       <div class="circle-number">4</div>
+                    </div>
+                    <span>
+                            Confirmation
+                    </span>
+                  </div>
+            </div> -->
+            <div id="demo">
+           <div class="step-app">
+                <ul class="step-steps">
+                        <li><a href="#step1">1</a><span>Company Information</span></li>
+                        <li><a href="#step2">2</a><span>License Upload</span></li>
+                        <li><a href="#step3">3</a><span>Tail Information</span></li>
+                        <li><a href="#step4">4</a><span>Confirmation</span></li>
+                </ul>
+           
+            <!-- signals end -->
+
+            <div class="row">
+
+                    <div class="col-sm-8">
+                       <div class="step-content">
+                             <fieldset class="step-tab-panel" id="step1">
+                                 <p class="p-16 mt-5 mb-3">Please Fill in Company Information</p>
+                                 <div class="row">
+                                     <div class="col-sm-12">
+                                             <div class="bg-form">
+                                                 <div class="row">
+                                                     <div class="col">
+                                                         <div class="form-group">
+                                                             <label class="form-label" for="Name">Name <span class="text-red">*</span></label>
+                                                             <input type="text" class="form-control form-control-lg custom-form" id="Name" placeholder="Enter company's name">
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                                 <div class="row">
+                                                         <div class="col">
+                                                             <div class="form-group">
+                                                                 <label class="form-label" for="Address">Address <span class="text-red">*</span></label>
+                                                                 <input type="text" class="form-control form-control-lg custom-form" id="Address" placeholder="14a Karimu Kotun Street">
+                                                             </div>
+                                                         </div>
+                                                         <div class="col">
+                                                                 <div class="form-group">
+                                                                         <label class="form-label" for="State">State <span class="text-red">*</span></label>
+                                                                         <select  class="form-control form-control-lg custom-form" id="State">
+                                                                             <option>Select State</option>
+                                                                             </select>
+                                                                     </div>
+                                                             </div>
+                                                     </div>
+                                                     <div class="row">
+                                                             <div class="col">
+                                                                 <div class="form-group">
+                                                                     <label class="form-label" for="Address">Type <span class="text-red">*</span></label>
+                                                                     <select  class="form-control form-control-lg custom-form" id="Type">
+                                                                         <option>Select type</option>
+                                                                         </select>
+                                                                 </div>
+                                                             </div>
+                                                             <div class="col">
+                                                                     <div class="form-group">
+                                                                         <label class="form-label" for="Type">Address <span class="text-red">*</span></label>
+                                                                        <div class="d-flex w-100">
+                                                                             <input type="text" class="form-control form-control-lg custom-form w-20" id="Type" placeholder="+234">
+                                                                             <div class="w-5"></div>
+                                                                             <input type="text" class="form-control form-control-lg custom-form w-75" id="Type" placeholder="">
+                                                                        </div>
+                                                                     </div>
+                                                                 </div>
+                                                          
+                                                         </div>
+                                                         <div class="row">
+                                                                 <div class="col">
+                                                                         <div class="form-group">
+                                                                                 <label class="form-label" for="NumberOfOutlet">Number of Outlet <span class="text-red">*</span></label>
+                                                                                 <select  class="form-control form-control-lg custom-form" id="NumberOfOutlet">
+                                                                                     <option>Enter number of outlet</option>
+                                                                                     </select>
+                                                                             </div>
+                                                                 </div>
+                                                                 <div class="col">
+                                                                         <div class="form-group">
+                                                                                 <label class="form-label" for="NumberOfTruck">Number of Truck <span class="text-red">*</span></label>
+                                                                                 <select  class="form-control form-control-lg custom-form" id="NumberOfTruck">
+                                                                                     <option>Enter number of truck</option>
+                                                                                     </select>
+                                                                             </div>
+                                                                     </div>
+                                                             </div>
+                                                             <div class="row">
+                                                                        <div class="col">
+                                                                            <div class="form-group">
+                                                                              
+                                                                                <div class="upload-file-custom position-relative">
+                                                                                        <label class="form-label" for="TruckBrand">Upload Truck Image <span class="text-red">*</span></label>
+                                                                                        <button class="btn btn-upload position-absolute browse-btn">Choose file</button>
+                                                                                    <input type="file" class="form-control form-control-lg custom-form" id="real-input" style="font-size:14px;">
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col">
+                                                                                
+                                                                            </div>
+                                                                    </div>
+                                                            
+                                             </div>
+                                     </div>
+                                  
+                                 </div>
+                             </fieldset>
+         
+                             <!-- 1 div -->
+                     <fieldset class="step-tab-panel" id="step2">
+                             <p class="p-16 mt-5 mb-3">Please Fill in License Information</p>
+                             <div class="row">
+                                 <div class="col-sm-12">
+                                         <div class="bg-form">
+                                             
+                                           
+                                               
+                                                     <div class="row">
+                                                           
+                                                             <div class="col">
+                                                                     <div class="form-group">
+                                                                             <label class="form-label" for="ProductSupplied">License Type <span class="text-red">*</span></label>
+                                                                             <select  class="form-control form-control-lg custom-form" id="ProductSupplied">
+                                                                                 <option>Select type</option>
+                                                                                 </select>
+                                                                         </div>
+                                                                 </div>
+                                                                 <div class="col">
+                                                                                <div class="form-group">
+                                                                                        <label class="form-label" for="Vehicleregistration">Date Registered <span class="text-red">*</span></label>
+                                                                                        <input type="date" class="form-control form-control-lg custom-form" id="Vehicleregistration">
+                                                                                    </div>
+                                                                            </div>
+                                                         </div>
+         
+                                                         <div class="row">
+                                                                 <div class="col">
+                                                                         <div class="form-group">
+                                                                             <label class="form-label" for="TruckRegistration ">Expiry Date  <span class="text-red">*</span></label>
+                                                                             <input type="date" class="form-control form-control-lg custom-form" id="TruckRegistration" placeholder="000 000 000">
+                                                                         </div>
+                                                                     </div>
+                                                                     <div class="col">
+                                                                                <div class="form-group">
+                                                                                        <label class="form-label" for="Vehicleregistration">Description<span class="text-red">*</span></label>
+                                                                                        <input type="date" class="form-control form-control-lg custom-form" id="Enter descrption">
+                                                                                    </div>
+                                                                            </div>
+                                                                
+                                                             </div>
+                                                               
+                                            
+                                            
+                                                 <div id="sections">
+                                                         <div class="row section">
+                                                                 <div class="col">
+                                                                     <div class="form-group">
+                                                                            <div class="upload-file-custom position-relative">
+                                                                                    <label class="form-label" for="real-input">Upload Necessary Document <span class="text-red">*</span></label>
+                                                                                    <button class="btn btn-upload position-absolute browse-btn">Choose file</button>
+                                                                                <input type="file" name="real-input[]" class="form-control form-control-lg custom-form" id="real-input" style="font-size:14px;">
+                                                                            </div>
+                                                                     </div>
+                                                                 </div>
+                                                                 <div class="col">
+                                                                                 <p class="mt-5"> <a href="#" class='remove' style="color: #59c9a5;text-decoration: underline;"><i class="fa fa-trash-o"></i></a></p>
+                                                                     </div>
+                                                             </div>
+                                                 </div>
+
+                                                     <div class="row">
+                                                               <div class="col"> <p> <a href="#" class="addsection" style="color: #59c9a5;text-decoration: underline;">+ Add another document</a></p></div>
+                                                     </div>
+                                                         
+                                         </div>
+                                 </div>
+                                 
+                             </div>
+                         </fieldset>
+                           <!-- 2 div -->
+         
+                           <fieldset class="step-tab-panel" id="step3">
+                            <p class="p-16 mt-5 mb-3">Please Fill in Tail’s Information</p>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                        <div class="bg-form">
+                                            
+                                            <div class="row">
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label class="form-label" for="Insurance">Insurance Number <span class="text-red">*</span></label>
+                                                            <input type="text" class="form-control form-control-lg custom-form" id="Insurance" placeholder="000 000 000">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                            <div class="form-group">
+                                                                    <label class="form-label" for="Vehicleregistration">Date of Vehicle registration <span class="text-red">*</span></label>
+                                                                    <input type="date" class="form-control form-control-lg custom-form" id="dropper-default">
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                              
+                                                    <div class="row">
+                                                            <div class="col">
+                                                                    <div class="form-group">
+                                                                            <label class="form-label" for="Vehicleregistration">Expiry Date of Registration <span class="text-red">*</span></label>
+                                                                            <input type="date" class="form-control form-control-lg custom-form" id="Vehicleregistration">
+                                                                        </div>
+                                                                </div>
+                                                            <div class="col">
+                                                                    <div class="form-group">
+                                                                            <label class="form-label" for="ProductSupplied">Type of Product Supplied <span class="text-red">*</span></label>
+                                                                            <select  class="form-control form-control-lg custom-form" id="ProductSupplied">
+                                                                                <option>Select product type</option>
+                                                                                </select>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+        
+                                                        <div class="row">
+                                                                <div class="col">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label" for="TruckRegistration ">Truck Registration Number <span class="text-red">*</span></label>
+                                                                            <input type="text" class="form-control form-control-lg custom-form" id="TruckRegistration" placeholder="000 000 000">
+                                                                        </div>
+                                                                    </div>
+                                                                <div class="col">
+                                                                        <div class="form-group">
+                                                                                <label class="form-label" for="NumberOfTruck">Truck Condition <span class="text-red">*</span></label>
+                                                                                <select  class="form-control form-control-lg custom-form" id="NumberOfTruck">
+                                                                                    <option>Please select </option>
+                                                                                    </select>
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                              
+                                            <div class="row">
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label class="form-label" for="TruckHistory">Truck History <span class="text-red">*</span></label>
+                                                            <input type="text" class="form-control form-control-lg custom-form" id="TruckHistory" placeholder="Enter condition">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                            <div class="form-group">
+                                                                    <label class="form-label" for="TruckDetails">Truck Details <span class="text-red">*</span></label>
+                                                                    <input type="text" class="form-control form-control-lg custom-form" id="TruckDetails" placeholder="Enter details">
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                  
+                                            <div class="row">
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label class="form-label" for="TruckBrand">Truck Brand <span class="text-red">*</span></label>
+                                                            <input type="text" class="form-control form-control-lg custom-form" id="TruckBrand" placeholder="Truck manufacturer">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                            <div class="form-group">
+                                                                    <label class="form-label" for="LicensePlate">License Plate Number <span class="text-red">*</span></label>
+                                                                    <select  class="form-control form-control-lg custom-form" id="LicensePlate">
+                                                                        <option>Select State</option>
+                                                                        </select>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row">
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                              
+                                                                <div class="upload-file-custom position-relative">
+                                                                        <label class="form-label" for="TruckBrand">Upload Necessary Document <span class="text-red">*</span></label>
+                                                                        <button class="btn btn-upload position-absolute browse-btn">Choose file</button>
+                                                                    <input type="file" class="form-control form-control-lg custom-form" id="real-input" style="font-size:14px;">
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                                
+                                                            </div>
+                                                    </div>
+                                                        
+                                        </div>
+                                </div>
+                                
+                            </div>
+                             </fieldset>
+                             <!-- 3 div -->
+         
+                             <fieldset class="step-tab-panel" id="step4">
+                                   <div class="d-flex justify-content-center align-items-center confirmation">
+                                       <div class="text-center">
+                                           <img src="img/check-finish.svg" alt="check finish">
+                                           <p class="p-24 mt-3">Truck Registration Complete</p>
+                                           <p class="mt-1">Your truck was registered successfully, to view all registered trucks , navigate to the menu and select all trucks,<br>you can also add more than <br>one truck</p>
+                                          <p> <a href="#" style="color: #59c9a5;text-decoration: underline;">View registered trucks</a></p>
+                                       </div>
+                                   </div>
+                                 </fieldset>
+                       </div>
+                    </div>
+                    <div class="col-sm-4" style="margin-top:5.5rem">
+                       <div class="step-footer">
+                             <p>
+                                   <button class="btn btn-go" data-direction="next" class="step-btn">
+                                           Continue
+                                   </button>
+                                   
+                             </p>
+                              <p>
+                                   <button class="btn btn-back" data-direction="prev">
+                                           Back
+                                       </button>
+                              </p>
+
+                              <p>
+                                    <button class="btn btn-go" data-direction="finish">Finish</button>
+                              </p>
+                       </div>
+     
+                          <div class="text-info">
+                               <h6>Fill in all Information</h6>
+                               <hr>
+                               <div class="help-text">
+                                     <p class="p-16-b">The Fields in ( <span class="text-red">*</span> ) are compulsory fields and Can’t be skipped.</p>
+                                     <p class="p-14">All information are Important , go through them to be sure you filled in the right details</p>
+                                 </div>
+                          </div>
+     
+                         
+                       </div>
+               </div>
+            </div>
+        </div>
+        </form>
+    </div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="styleSelector">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="../files/bower_components/jquery/js/jquery.min.js"></script>
+<script type="text/javascript" src="../files/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../files/bower_components/popper.js/js/popper.min.js"></script>
+<script type="text/javascript" src="../files/bower_components/bootstrap/js/bootstrap.min.js"></script>
+
+
+<script src="../files/assets/pages/waves/js/waves.min.js"></script>
+<script type="text/javascript" src="../files/bower_components/modernizr/js/modernizr.js"></script>
+<script src="../files/assets/js/pcoded.min.js"></script>
+<script src="../files/assets/js/vertical/vertical-layout.min.js"></script>
+<script type="text/javascript" src="../files/assets/js/script.js"></script>
+<script src="js/jquery-steps.js"></script>
+<script>
+        $('#demo').steps({
+          onFinish: function () {
+            alert('Registration complete');
+          }
+        });
+      </script>
+      <script>
+          document.querySelector(".browse-btn").addEventListener("click", function(event){
+  event.preventDefault()
+});
+   const uploadButton = document.querySelector('.browse-btn');
+const realInput = document.getElementById('real-input');
+
+uploadButton.addEventListener('click', (e) => {
+  realInput.click();
+});
+
+
+
+</script>
+<script src="js/app.js"></script>
+<script>
+//define template
+var template = $('#sections .section:first').clone();
+
+//define counter
+var sectionsCount = 1;
+
+//add new section
+$('body').on('click', '.addsection', function() {
+
+    //increment
+    sectionsCount++;
+
+    //loop through each input
+    var section = template.clone().find(':input').each(function(){
+
+        //set id to store the updated section number
+        var newId = this.id + sectionsCount;
+
+        //update for label
+        $(this).prev().attr('for', newId);
+
+        //update id
+        this.id = newId;
+
+    }).end()
+
+    //inject new section
+    .appendTo('#sections');
+    return false;
+});
+
+//remove section
+$('#sections').on('click', '.remove', function() {
+    //fade out section
+    $(this).parent().fadeOut(300, function(){
+        //remove parent element (main section)
+        $(this).parent().parent().empty();
+        return false;
+    });
+    return false;
+});
+</script>
+</body>
+
+</html>

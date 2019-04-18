@@ -1,0 +1,93 @@
+.step-app > .step-steps {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: start;
+}
+.step-app > .step-steps > li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right:16px;
+}
+
+
+.step-app > .step-steps > li > a > span {
+  color: #a7a7a7;
+}
+
+.step-app > .step-steps > li > a {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border:1px solid #e6e6e6;
+  text-decoration: none;
+  color: #a7a7a7;
+}
+.step-app > .step-steps > li > span {
+  color: #a7a7a7;
+  margin-left:16px;
+}
+
+.step-app > .step-steps > li.active > span {
+  color: #333;
+}
+.step-app > .step-steps > li > a > .number {
+  background: #fff;
+  padding: 0 8px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 3px;
+  color: #333;
+}
+.step-app > .step-steps > li > a:hover {
+  background-color: #ddd;
+}
+.step-app > .step-steps > li.active a {
+  background-color: #59c9a577;
+  color: #fff;
+  border:none;
+}
+.step-app > .step-steps > li.error a {
+  background-color: #e7505a;
+  color: #fff;
+}
+.step-app > .step-steps > li.done a {
+  background-color: #1a936f;
+  color: #fff;
+  border:none;
+}
+.step-app > .step-content {
+  padding: 10px;
+  border-top: 0;
+}
+.step-app >  .row > .col-sm-8 > .step-content > .step-tab-panel {
+  display: none;
+}
+.step-app >  .row > .col-sm-8 > .step-content > .step-tab-panel.active {
+  display: block;
+}
+.step-app > .step-footer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.step-app > .step-footer > .step-btn {
+  padding: 4px 16px;
+  color: #333;
+  text-decoration: none;
+  background: #e5e5e5;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=jquery-steps.css.map */

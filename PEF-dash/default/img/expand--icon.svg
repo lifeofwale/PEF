@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_expand_more" width="15" height="15" viewBox="0 0 15 15">
+    <defs>
+        <style>
+            .cls-1{fill:#40434e}.cls-2{fill:none}
+        </style>
+    </defs>
+    <g id="Icon_24px" data-name="Icon 24px">
+        <path id="Shape" d="M6.619 0L3.75 2.862.881 0 0 .881l3.75 3.75L7.5.881z" class="cls-1" transform="translate(3.75 5.369)"/>
+        <path id="Shape-2" d="M0 0h15v15H0z" class="cls-2" data-name="Shape"/>
+    </g>
+</svg>
