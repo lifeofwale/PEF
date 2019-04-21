@@ -9216,6 +9216,10 @@ body .pcoded[vertical-placement=right] .header-navbar .navbar-wrapper .navbar-co
     font-size: 14px;
   font-weight: 300;
 }
+.p-b{
+    
+  font-weight: bold;
+}
 .p-16{
     font-size: 16px;
   font-weight: 600;
@@ -9365,7 +9369,7 @@ body .pcoded[vertical-placement=right] .header-navbar .navbar-wrapper .navbar-co
 }
 
 .btn-upload{
-    width: 102px;
+    width: 114px;
     height: 32px;
     background-color: #59c9a5;
     color:#fff;
@@ -9434,4 +9438,17 @@ body .pcoded[vertical-placement=right] .header-navbar .navbar-wrapper .navbar-co
 tbody tr:hover{
     background-color: rgba(75, 116, 255, 0.1) !important;
     border-left: 4px solid #59c9a5;
+}
+.box-info{
+    display: flex;
+    align-items: center;
+    padding:2%;
+    border: solid 1px #a7a7a7;
+    background-color: #d8d8d8;
+    font-size: 14px;
+}
+
+.uploaded-doc{
+    border:1px solid #59c9a5;
+    padding:3%;
 }

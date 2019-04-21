@@ -356,9 +356,10 @@
                                                                             <div class="form-group">
                                                                               
                                                                                 <div class="upload-file-custom position-relative">
-                                                                                        <label class="form-label" for="TruckBrand">Upload Truck Image <span class="text-red">*</span></label>
+                                                                                        <label class="form-label" for="TruckBrand">Upload Truck Image <span class="text-red">*</span>  <p class="my-0"> <small>you can upload multiple files</small></p></label>
+                                                        
                                                                                         <button class="btn btn-upload position-absolute browse-btn">Choose file</button>
-                                                                                    <input type="file" class="form-control form-control-lg custom-form" id="real-input" style="font-size:14px;">
+                                                                                    <input type="file" class="form-control form-control-lg custom-form" id="real-input" style="font-size:14px;" multiple>
                                                                                 </div>
                                                                                 
                                                                             </div>
@@ -366,6 +367,12 @@
                                                                         <div class="col">
                                                                                 
                                                                             </div>
+                                                                    </div>
+                                                                    <p class="my-2">Uploaded documents</p>
+                                                                    <div class="d-flex justify-content-start uploaded-doc">
+                                                                        
+                                                                        <p class="mr-3"><span class="mr-2">doc.png</span><a href="#" style="color: #59c9a5;text-decoration: underline;"><i class="fa fa-trash-o"></i></a></p>
+                                                                        
                                                                     </div>
                                                             
                                              </div>
@@ -382,61 +389,72 @@
                                          <div class="bg-form">
                                              
                                            
-                                               
-                                                     <div class="row">
-                                                           
-                                                             <div class="col">
-                                                                     <div class="form-group">
-                                                                             <label class="form-label" for="ProductSupplied">License Type <span class="text-red">*</span></label>
-                                                                             <select  class="form-control form-control-lg custom-form" id="ProductSupplied">
-                                                                                 <option>Select type</option>
-                                                                                 </select>
+                                               <div id="sections">
+                                                       
+                                                      <div class="section" style="border-bottom:2px solid;">
+                                                              <h3 class="mt-3 mb-3">License Upload</h3>
+                                                                     <div class="row">
+                                                                           
+                                                                             <div class="col">
+                                                                                     <div class="form-group">
+                                                                                             <label class="form-label" for="ProductSupplied">License Type <span class="text-red">*</span></label>
+                                                                                             <select  class="form-control form-control-lg custom-form" id="ProductSupplied">
+                                                                                                 <option>Select type</option>
+                                                                                                 </select>
+                                                                                         </div>
+                                                                                 </div>
+                                                                                 <div class="col">
+                                                                                                <div class="form-group">
+                                                                                                        <label class="form-label" for="Vehicleregistration">Date Registered <span class="text-red">*</span></label>
+                                                                                                        <input type="date" class="form-control form-control-lg custom-form" id="Vehicleregistration">
+                                                                                                    </div>
+                                                                                            </div>
                                                                          </div>
-                                                                 </div>
-                                                                 <div class="col">
-                                                                                <div class="form-group">
-                                                                                        <label class="form-label" for="Vehicleregistration">Date Registered <span class="text-red">*</span></label>
-                                                                                        <input type="date" class="form-control form-control-lg custom-form" id="Vehicleregistration">
-                                                                                    </div>
-                                                                            </div>
-                                                         </div>
-         
-                                                         <div class="row">
-                                                                 <div class="col">
-                                                                         <div class="form-group">
-                                                                             <label class="form-label" for="TruckRegistration ">Expiry Date  <span class="text-red">*</span></label>
-                                                                             <input type="date" class="form-control form-control-lg custom-form" id="TruckRegistration" placeholder="000 000 000">
-                                                                         </div>
-                                                                     </div>
-                                                                     <div class="col">
-                                                                                <div class="form-group">
-                                                                                        <label class="form-label" for="Vehicleregistration">Description<span class="text-red">*</span></label>
-                                                                                        <input type="date" class="form-control form-control-lg custom-form" id="Enter descrption">
-                                                                                    </div>
-                                                                            </div>
-                                                                
+                         
+                                                                         <div class="row">
+                                                                                 <div class="col">
+                                                                                         <div class="form-group">
+                                                                                             <label class="form-label" for="TruckRegistration ">Expiry Date  <span class="text-red">*</span></label>
+                                                                                             <input type="date" class="form-control form-control-lg custom-form" id="TruckRegistration" placeholder="000 000 000">
+                                                                                         </div>
+                                                                                     </div>
+                                                                                     <div class="col">
+                                                                                                <div class="form-group">
+                                                                                                        <label class="form-label" for="Vehicleregistration">Description<span class="text-red">*</span></label>
+                                                                                                        <input type="date" class="form-control form-control-lg custom-form" id="Enter descrption">
+                                                                                                    </div>
+                                                                                            </div>
+                                                                                
+                                                                             </div>
+                                                                               
+                                                            
+                                                            
+                                                                 
+                                                                         <div class="row">
+                                                                                 <div class="col">
+                                                                                     <div class="form-group">
+                                                                                            <div class="upload-file-custom position-relative">
+                                                                                                    <label class="form-label" for="real-input">Upload Necessary Document <span class="text-red">*</span> <p class="my-0"> <small>you can upload multiple files</small></p></label>
+                                                                                                   
+                                                                                                    <button class="btn btn-upload position-absolute browse-btn">Choose file</button>
+                                                                                                <input type="file" name="real-input[]" class="form-control form-control-lg custom-form" id="real-input" style="font-size:14px;" multiple>
+                                                                                            </div>
+                                                                                     </div>
+                                                                                 </div>
+                                                                                 <div class="col">
+                                                                                                <p style="margin-top:4rem;"><a href="#" style="color: #59c9a5;text-decoration: underline;"><span class="mr-2">delete this form</span><i class="fa fa-trash-o"></i></a></p>
+                                                                                     </div>
+                                                                             </div>
+                                                      </div>
+                                               </div>
+                                                             <p class="my-2">Uploaded documents</p>
+                                                             <div class="d-flex justify-content-start uploaded-doc">
+                                                                 
+                                                                 <p class="mr-3"><span class="mr-2">doc.png</span><a href="#" style="color: #59c9a5;text-decoration: underline;"><i class="fa fa-trash-o"></i></a></p>
+                                                                 
                                                              </div>
-                                                               
-                                            
-                                            
-                                                 <div id="sections">
-                                                         <div class="row section">
-                                                                 <div class="col">
-                                                                     <div class="form-group">
-                                                                            <div class="upload-file-custom position-relative">
-                                                                                    <label class="form-label" for="real-input">Upload Necessary Document <span class="text-red">*</span></label>
-                                                                                    <button class="btn btn-upload position-absolute browse-btn">Choose file</button>
-                                                                                <input type="file" name="real-input[]" class="form-control form-control-lg custom-form" id="real-input" style="font-size:14px;">
-                                                                            </div>
-                                                                     </div>
-                                                                 </div>
-                                                                 <div class="col">
-                                                                                 <p class="mt-5"> <a href="#" class='remove' style="color: #59c9a5;text-decoration: underline;"><i class="fa fa-trash-o"></i></a></p>
-                                                                     </div>
-                                                             </div>
-                                                 </div>
 
-                                                     <div class="row">
+                                                     <div class="row mt-4">
                                                                <div class="col"> <p> <a href="#" class="addsection" style="color: #59c9a5;text-decoration: underline;">+ Add another document</a></p></div>
                                                      </div>
                                                          
