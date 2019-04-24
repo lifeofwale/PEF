@@ -401,6 +401,10 @@
                                
                             </div>
 
+                            <div class="my-3 d-flex justify-content-center">
+                                    <canvas id="myChart" width="250" height="250"></canvas>
+                            </div>
+
                           <div class="p-3">
                                 <div class="clearfix">
                                     <div class="float-left">
@@ -525,7 +529,7 @@ uploadButton.addEventListener('click', (e) => {
 </script>
 <script>
 
-var colors = ['#007bff','#28a745','#444444','#c3e6cb','#dc3545','#6c757d'];
+var colors = ['#007bff','#33d9b7'];
 
 var chBar = document.getElementById("chBar");
 var chartData = {
@@ -568,6 +572,36 @@ if (chBar) {
   }
   });
 }</script>
+<script>
+        var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+  type: 'pie',
+  data: {
+   
+    datasets: [{
+      label: '# of Tomatoes',
+      data: [12, 19, 3, 5],
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.5)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)'
+      ],
+      borderColor: [
+        'rgba(255,99,132,1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)'
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+   	cutoutPercentage: 40,
+    responsive: false,
+
+  }
+});</script>
 </body>
 
 </html>
