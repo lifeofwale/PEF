@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<title>PEF | POC</title>
+
+
+<!--[if lt IE 10]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+<link rel="icon" href="https://colorlib.com//polygon/admindek/files/assets/images/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="../files/bower_components/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="../files/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+
+<link rel="stylesheet" type="text/css" href="../files/assets/icon/feather/css/feather.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="../files/assets/icon/font-awesome/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="../files/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="../files/assets/css/pages.css">
+<link rel="stylesheet" href="css/jquery-steps.css">
+<!-- Demo stylesheet -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="loader-bg">
+<div class="loader-bar"></div>
+</div>
+
+<div id="pcoded" class="pcoded">
+<div class="pcoded-overlay-box"></div>
+<div class="pcoded-container navbar-wrapper">
+
+<nav class="navbar header-navbar pcoded-header">
+<div class="navbar-wrapper">
+<div class="navbar-logo">
+<a href="index-2.html">
+<img class="img-fluid logo-img" src="img/Aquilla.svg" alt="Theme-Logo" />
+</a>
+<a class="mobile-options waves-effect waves-light">
+    <i class="feather icon-more-horizontal"></i>
+    </a>
+</div>
+<div class="navbar-container container-fluid">
+<ul class="nav-left">
+
+
+<li>
+    <a class="mobile-menu" id="mobile-collapse" href="#!">
+        <i class="fa fa-bars"></i>
+       </a>
+      
+</li>
+
+</ul>
+<ul class="nav-right">
+<li class="header-notification">
+<div class="dropdown-primary dropdown">
+<div class="dropdown-toggle" data-toggle="dropdown">
+<i class="feather icon-bell"></i>
+<span class="badge bg-c-red">5</span>
+</div>
+<ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+<li>
+<h6>Notifications</h6>
+<label class="label label-danger">New</label>
+</li>
+<li> 
+<div class="media">
+<div class="media-body">
+<h5 class="notification-user">Joshua Oluwagbemiga</h5>
+<p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+<span class="notification-time">30 minutes ago</span>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+</li>
+
+<li class="user-profile header-notification">
+<div class="dropdown-primary dropdown">
+<div class="dropdown-toggle" data-toggle="dropdown">
+<span class="font-weight-bold">Joshua Oluwagbemiga
+
+</span>
+<i class="feather icon-chevron-down"></i>
+</div>
+<ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+<li>
+<a href="#!">
+<i class="feather icon-settings"></i> Settings
+</a>
+</li>
+<li>
+<a href="#">
+<i class="feather icon-user"></i> Profile
+</a>
+</li>
+
+
+<li>
+<a href="auth-sign-in-social.html">
+<i class="feather icon-log-out"></i> Logout
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="pcoded-main-container">
+<div class="pcoded-wrapper">
+
+<nav class="pcoded-navbar">
+<div class="nav-list">
+<div class="pcoded-inner-navbar main-menu">
+
+<ul class="pcoded-item pcoded-left-item">
+<li class="pcoded-hasmenu">
+<a href="javascript:void(0)" class="waves-effect waves-dark">
+        <span class="pcoded-micon mr-2">
+                <img src="img/tank-truck-light.svg" alt="truck light">
+               </span>
+<span class="pcoded-mtext">Dashboard</span>
+</a>
+<ul class="pcoded-submenu">
+<li class="">
+<a href="" class="waves-effect waves-dark">
+<span class="pcoded-mtext">Sample 1</span>
+</a>
+</li>
+<li class="">
+<a href="" class="waves-effect waves-dark">
+<span class="pcoded-mtext">Sample 2</span>
+</a>
+</li>
+</ul>
+</li>
+
+<li class="active pcoded-hasmenu">
+    <a href="javascript:void(0)" class="waves-effect waves-dark">
+            <span class="pcoded-micon mr-2">
+                    <img src="img/tank-truck-light.svg" alt="truck light">
+                   </span>
+    <span class="pcoded-mtext">Manage Tickets</span>
+    </a>
+    <ul class="pcoded-submenu">
+    <li class="active">
+    <a href="" class="waves-effect waves-dark">
+    <span class="pcoded-mtext">Register Trucks</span>
+    </a>
+    </li>
+    <li class="">
+    <a href="" class="waves-effect waves-dark">
+    <span class="pcoded-mtext">All Trucks</span>
+    </a>
+    </li>
+    </ul>
+    </li>
+
+
+
+</ul>
+
+
+</li>
+
+
+
+</ul>
+ 
+<!-- stop here -->
+
+</div>
+</div>
+</nav>
+
+<div class="pcoded-content" style="background-color: rgba(240, 240, 240, 0.2);min-height:100vh">
+
+<div class="page-header card">
+<div class="row align-items-end">
+
+
+</div>
+</div>
+
+<div class="pcoded-inner-content pt-0">
+<div class="main-body">
+<div class="page-wrapper pt-0">
+    <div class="container-fluid custom-padding mb-5">
+        
+           <div class="card">
+                <div class="d-flex justify-content-between p-4">
+                    <div class="dashhead-1">
+                        <h6 class="mb-0">PRODUCTS CONSUMPTION ACROSS THE COUNTRY  </h6>
+                        <p class="mb-0">(Total Qty Supply vs. Total Consumption in 1000 barrels)</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto px-1">
+                            <div class="input-group border mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/sort--icon.svg" alt="sort"></span>
+                                </div>
+                             <select name="select" id="#" style="background-color:transparent;border:0;-webkit-appearance:none;">
+                               <option value="aye">Filter by</option>
+                             </select>
+                                <div class="input-group-append">
+                                  <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/expand--icon.svg" alt=""></span>
+                                </div>
+                              </div>
+                              
+                        </div>
+                        <div class="col-auto px-1">
+                            <div class="input-group border mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/ic-cal.svg" alt="sort"></span>
+                                </div>
+                             <input type="date" class="form-control px-0" style="background-color: transparent;border:0;">
+                               
+                              </div>
+                              
+                        </div>
+                        <p class="mt-2">-</p>
+                        <div class="col-auto px-1">
+                            <div class="input-group border mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/ic-cal.svg" alt="sort"></span>
+                                </div>
+                             <input type="date" class="form-control px-0" style="background-color: transparent;border:0;">
+                               
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+                    <div class="card-body">
+                        <canvas id="chBar" height="100"></canvas>
+                    </div>
+                
+           </div>
+
+           <div class="row">
+               <div class="col-md-8">
+                <div class="card p-3">
+                   
+                        <div class="d-flex justify-content-between align-items-center p-3">
+                                <div class="dashhead-1">
+                                    <h6>EFFICIENCY</h6>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-auto px-1">
+                                        <div class="input-group border mb-3">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/sort--icon.svg" alt="sort"></span>
+                                            </div>
+                                         <select name="select" id="#" style="background-color:transparent;border:0;-webkit-appearance:none;">
+                                           <option value="aye">Filter by</option>
+                                         </select>
+                                            <div class="input-group-append">
+                                              <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/expand--icon.svg" alt=""></span>
+                                            </div>
+                                          </div>
+                                          
+                                    </div>
+                                    <div class="col px-1">
+                                        <div class="input-group border mb-3">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/ic-cal.svg" alt="sort"></span>
+                                            </div>
+                                         <input type="date" class="form-control px-0" style="background-color: transparent;border:0;">
+                                           
+                                          </div>
+                                          
+                                    </div>
+                                    <p class="mt-2">-</p>
+                                    <div class="col px-1">
+                                        <div class="input-group border mb-3">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/ic-cal.svg" alt="sort"></span>
+                                            </div>
+                                         <input type="date" class="form-control px-0" style="background-color: transparent;border:0;">
+                                           
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row p-3">
+                                <div class="col-auto eff-card">
+                                    <h6>Liters Offloaded</h6>
+                                    <p>Number of liters offloaded per vessels</p>
+                                    <p><button class="btn btn-go" data-direction="next" style=" width: 111px;">
+                                            INSPECT
+                                    </button></p>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="rk-likes">
+                                        91k
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                            <div class="progress mb-2"  style="height: 7px;">
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75" style="height: 7px;"></div>
+                                                    </div>
+                                                    <p><span class="mr-1" style="color:yellowgreen;"><i class="fa fa-level-up"></i></span>+5% Than last Month</p>
+                                        </div>
+                            </div>
+
+                            <hr class="my-1">
+
+                            <div class="row p-3">
+                                    <div class="col-auto eff-card">
+                                        <h6>Liters Offloaded</h6>
+                                        <p>Number of liters offloaded per vessels</p>
+                                        <p><button class="btn btn-go" data-direction="next" style=" width: 111px;">
+                                                INSPECT
+                                        </button></p>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="rk-likes">
+                                                11K
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                                <div class="progress mb-2"  style="height: 7px;">
+                                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75" style="height: 7px;"></div>
+                                                        </div>
+                                                        <p><span class="mr-1" style="color:yellowgreen;"><i class="fa fa-level-up"></i></span>+5% Than last Month</p>
+                                            </div>
+                                </div>
+                                <hr class="my-1">
+                                <div class="row p-3">
+                                        <div class="col-auto eff-card">
+                                            <h6>Liters Offloaded</h6>
+                                            <p>Number of liters offloaded per vessels</p>
+                                            <p><button class="btn btn-go" data-direction="next" style=" width: 111px;">
+                                                    INSPECT
+                                            </button></p>
+                                        </div>
+                                        <div class="col-auto">
+                                            <div class="rk-likes">
+                                                91k
+                                            </div>
+                                            </div>
+                                            <div class="col">
+                                                    <div class="progress mb-2"  style="height: 7px;">
+                                                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75" style="height: 7px;"></div>
+                                                            </div>
+                                                            <p><span class="mr-1" style="color:yellowgreen;"><i class="fa fa-level-up"></i></span>+5% Than last Month</p>
+                                                </div>
+                                    </div>
+                   
+                </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="card p-2">
+                        <div class="d-flex justify-content-between align-items-center p-3">
+                                <div class="dashhead-1">
+                                    <h6>PRODUCT AVAILABILITY</h6>
+                                    
+                                </div>
+                                
+                                   
+                                        <div class="input-group border mb-3" style="max-width:150px;">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/sort--icon.svg" alt="sort"></span>
+                                            </div>
+                                         <select name="select" id="#" style="background-color:transparent;border:0;-webkit-appearance:none;">
+                                           <option value="aye">Filter by</option>
+                                         </select>
+                                            <div class="input-group-append">
+                                              <span class="input-group-text" style="background-color: transparent;border:0;"><img src="img/expand--icon.svg" alt=""></span>
+                                            </div>
+                                          </div>
+                                          
+                                   
+                               
+                               
+                            </div>
+
+                          <div class="p-3">
+                                <div class="clearfix">
+                                    <div class="float-left">
+                                        <p>Liters available</p>
+                                    </div>
+                                    <div class="float-right">
+                                        <p style="font-size: 16px;
+                                        font-weight: 600;">33, 100,400</p>
+                                        </div>
+                                </div>
+                                <hr class="my-1">
+                                <div class="clearfix">
+                                        <div class="float-left">
+                                            <div class="d-inline-block">
+                                                <span class="d-inline-block">
+                                                    <div class="doug-chart"></div>
+                                                </span>
+                                                <span>Petroleum</span>
+                                            </div>
+                                        </div>
+                                        <div class="float-right">
+                                            <p>730,000</p>
+                                            </div>
+                                    </div>
+                                    <div class="clearfix">
+                                            <div class="float-left">
+                                                    <div class="d-inline-block">
+                                                            <span class="d-inline-block">
+                                                                <div class="doug-chart"></div>
+                                                            </span>
+                                                            <span>Diesel</span>
+                                                        </div>
+                                            </div>
+                                            <div class="float-right">
+                                                <p>405,000</p>
+                                                </div>
+                                        </div>
+                                        <div class="clearfix">
+                                                <div class="float-left">
+                                                        <div class="d-inline-block">
+                                                                <span class="d-inline-block">
+                                                                    <div class="doug-chart"></div>
+                                                                </span>
+                                                                <span>Gas</span>
+                                                            </div>
+                                                </div>
+                                                <div class="float-right">
+                                                    <p>840,960</p>
+                                                    </div>
+                                            </div>
+
+                                            <div class="clearfix">
+                                                    <div class="float-left">
+                                                            <div class="d-inline-block">
+                                                                    <span class="d-inline-block">
+                                                                        <div class="doug-chart"></div>
+                                                                    </span>
+                                                                    <span>Kerosene</span>
+                                                                </div>
+                                                    </div>
+                                                    <div class="float-right">
+                                                        <p>390,055</p>
+                                                        </div>
+                                                </div>
+
+                          </div>
+                   </div>
+                </div>
+
+           </div>
+               
+                
+               
+    </div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="styleSelector">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="../files/bower_components/jquery/js/jquery.min.js"></script>
+<script type="text/javascript" src="../files/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../files/bower_components/popper.js/js/popper.min.js"></script>
+<script type="text/javascript" src="../files/bower_components/bootstrap/js/bootstrap.min.js"></script>
+
+
+<script src="../files/assets/pages/waves/js/waves.min.js"></script>
+<script type="text/javascript" src="../files/bower_components/modernizr/js/modernizr.js"></script>
+<script src="../files/assets/js/pcoded.min.js"></script>
+<script src="../files/assets/js/vertical/vertical-layout.min.js"></script>
+<script type="text/javascript" src="../files/assets/js/script.js"></script>
+<script src="js/jquery-steps.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+<script>
+        $('#demo').steps({
+          onFinish: function () {
+            alert('Registration complete');
+          }
+        });
+      </script>
+      <script>
+          document.querySelector(".browse-btn").addEventListener("click", function(event){
+  event.preventDefault()
+});
+   const uploadButton = document.querySelector('.browse-btn');
+const realInput = document.getElementById('real-input');
+
+uploadButton.addEventListener('click', (e) => {
+  realInput.click();
+});
+</script>
+<script>
+
+var colors = ['#007bff','#28a745','#444444','#c3e6cb','#dc3545','#6c757d'];
+
+var chBar = document.getElementById("chBar");
+var chartData = {
+  labels: ["Jan", "Feb", "Mar", "April", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"],
+  datasets: [{
+    label: "Supply",
+    data: [29000, 38000, 30000, 18000, 12000, 33000, 20000, 30000, 32000, 35000, 21000, 43000],
+    backgroundColor: colors[0]
+  },
+  {
+    label: "Consumption",
+    data: [41000, 54000, 42000, 23000, 16000, 48000, 42000, 46000, 44000, 52000, 30000, 73000],
+    backgroundColor: colors[1]
+  }
+  ]
+};
+
+if (chBar) {
+  new Chart(chBar, {
+  type: 'bar',
+  data: chartData,
+  options: {
+    scales: {
+      xAxes: [{
+        barPercentage: 0.4,
+        categoryPercentage: 0.5, gridLines : {
+                display : false
+            }
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: false
+        }
+      }]
+    },
+    legend: {
+      display: true,
+      position: 'bottom'
+    }
+  }
+  });
+}</script>
+</body>
+
+</html>

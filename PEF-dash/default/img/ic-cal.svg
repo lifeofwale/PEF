@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_insert_invitation" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:#a7a7a7}.cls-2{fill:none}
+        </style>
+    </defs>
+    <g id="Icon_24px" data-name="Icon 24px">
+        <path id="Shape" d="M13.333 16.667H1.667A1.669 1.669 0 0 1 0 15L.008 3.334a1.665 1.665 0 0 1 1.659-1.667H2.5V0h1.667v1.667h6.666V0H12.5v1.667h.833A1.669 1.669 0 0 1 15 3.334V15a1.669 1.669 0 0 1-1.667 1.667zM1.667 5.833V15h11.666V5.833zm10 7.5H7.5V9.167h4.167v4.166z" class="cls-1" transform="translate(2.5 .833)"/>
+        <path id="Shape-2" d="M0 0h20v20H0z" class="cls-2" data-name="Shape"/>
+    </g>
+</svg>

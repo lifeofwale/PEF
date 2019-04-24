@@ -9403,6 +9403,20 @@ body .pcoded[vertical-placement=right] .header-navbar .navbar-wrapper .navbar-co
     background-color: #1fb886 !important;
     vertical-align: middle;
   }
+  .paidclr-2 {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #fbd21b !important;
+    vertical-align: middle;
+  }
+  .paidclr-3 {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #c31f2d !important;
+    vertical-align: middle;
+  }
 
   .pag p {
     font-size: 14px;
@@ -9451,4 +9465,54 @@ tbody tr:hover{
 .uploaded-doc{
     border:1px solid #59c9a5;
     padding:3%;
+}
+
+.dashhead-1 > h6 {
+    font-size: 17px;
+    font-weight:normal;
+    margin-bottom: 8px;
+    color: #302f2f;
+}
+
+.dashhead-1 > p {
+    font-size: 14px;
+    font-weight:normal;
+    color: #a7a7a7;
+}
+
+input[type=date]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    display: none;
+}
+
+.eff-card > h6{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(73, 69, 69);
+}
+
+.eff-card > p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 1.6rem;
+    color: rgb(116, 114, 114);
+}
+
+.rk-likes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 63px;
+  height: 26px;
+  border-radius: 2px;
+  color:#fff;
+  background-color: #d8d8d8;
+}
+
+.doug-chart{
+    width: 20px;
+    height: 10px;
+    background-color: #a7a7a7;
 }

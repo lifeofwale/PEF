@@ -35,6 +35,13 @@
 
 <!-- Demo stylesheet -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+
+        #map{
+            height: 100%;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
 
@@ -330,7 +337,7 @@
                                                                     <p>Position</p>
                                                                 </div>
                                                                 <div class="col-sm-5">
-                                                                    <p>53.89º , 78.8390º</p>
+                                                                    <p>6.4281ºN , 3.4219ºE</p>
                                                                     </div>
                                                             </div>
                                                             <div class="row">
@@ -392,7 +399,8 @@
                         </div>
                     </div>
                     <div class="col-sm-8">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6899.48695797564!2d7.490949344972152!3d9.073700429031975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104dd42594163dd1%3A0x2b97d2308e5f8ee1!2sTranscorp+Hilton+Abuja!5e0!3m2!1sen!2sng!4v1554880480263!5m2!1sen!2sng" style="width:inherit" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        
+                             <div id="map"></div>
                     
                         </div>
                 </div>
@@ -413,7 +421,41 @@
 </div>
 
 
-
+<script>
+   
+        function initMap() {
+          var uluru = {lat: 6.4281, lng: 3.4219};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 13,
+            center: uluru
+          });
+        
+          var contentString = '<div id="content">'+
+              '<div id="siteNotice">'+
+              '</div>'+
+              '<h1 id="firstHeading" class="firstHeading">Lagos</h1>'+
+              '<div id="bodyContent">'+
+              '<p><b>Lagos</b>, also referred to as , is a large '
+              '</div>'+
+              '</div>';
+        
+          var infowindow = new google.maps.InfoWindow({
+            content: contentString
+          });
+        
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+            title: 'Lagos'
+          });
+          marker.addListener('click', function() {
+            infowindow.open(map, marker);
+          });
+        }
+                </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXrWbwPy3JRGw30QBX59RX66Yd8N_cy4A&callback=initMap">
+            </script>
 <script type="text/javascript" src="../files/bower_components/jquery/js/jquery.min.js"></script>
 <script type="text/javascript" src="../files/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="../files/bower_components/popper.js/js/popper.min.js"></script>
