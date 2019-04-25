@@ -41,6 +41,10 @@
             height: 100%;
             width: 100%;
         }
+
+        .firstHeading{
+            font-size:14px;
+        }
     </style>
 </head>
 <body>
@@ -261,146 +265,10 @@
                    <button class="btn btn-go">Report Incidence</button>
                 </div>
                 <div class="row no-gutters">
-                    <div class="col-sm-4 p-3" style="background-color: #f0f0f0;">
-                        <div class="d-flex justify-content-between" style="border-bottom:1px solid #d5d5d5;">
-                            <p>Truck Information</p>
-                            <p>22 March , 2019</p>
-                        </div>
-                        <div class="mt-2">
-                            <div class="row">
-                                <div class="col-sm-7">
-                                    <p>Altitude</p>
-                                </div>
-                                <div class="col-sm-5">
-                                    <p>132m</p>
-                                    </div>
-                            </div>
-                            <div class="row">
-                                    <div class="col-sm-7">
-                                        <p>Angle</p>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <p>160 degree</p>
-                                        </div>
-                                </div>
-                                <div class="row">
-                                        <div class="col-sm-7">
-                                            <p>Driver</p>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <p>Abraham Adesanya</p>
-                                            </div>
-                                    </div>
-                                    <div class="row">
-                                            <div class="col-sm-7">
-                                                <p>Ignition</p>
-                                            </div>
-                                            <div class="col-sm-5">
-                                                <p>On</p>
-                                                </div>
-                                        </div>
-                                        <div class="row">
-                                                <div class="col-sm-7">
-                                                    <p>Model</p>
-                                                </div>
-                                                <div class="col-sm-5">
-                                                    <p>Mac</p>
-                                                    </div>
-                                            </div>
-                                            <div class="row">
-                                                    <div class="col-sm-7">
-                                                        <p>Location</p>
-                                                    </div>
-                                                    <div class="col-sm-5">
-                                                        <p>Admiralty Way</p>
-                                                        </div>
-                                                </div>
-                                                
-                                                <div class="row">
-                                                        <div class="col-sm-7">
-                                                            <p>Odometer</p>
-                                                        </div>
-                                                        <div class="col-sm-5">
-                                                            <p>9837km</p>
-                                                            </div>
-                                                    </div>
-                                                    <div class="row">
-                                                            <div class="col-sm-7">
-                                                                <p>Plate</p>
-                                                            </div>
-                                                            <div class="col-sm-5">
-                                                                <p>KJA - 398 - JDZ</p>
-                                                                </div>
-                                                        </div>
-                                                        <div class="row">
-                                                                <div class="col-sm-7">
-                                                                    <p>Position</p>
-                                                                </div>
-                                                                <div class="col-sm-5">
-                                                                    <p>6.4281ºN , 3.4219ºE</p>
-                                                                    </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                    <div class="col-sm-7">
-                                                                        <p>Status</p>
-                                                                    </div>
-                                                                    <div class="col-sm-5">
-                                                                        <p>Moving 2h 54min</p>
-                                                                        </div>
-                                                                </div>
-                                                                <div class="row">
-                                                                        <div class="col-sm-7">
-                                                                            <p>Angle</p>
-                                                                        </div>
-                                                                        <div class="col-sm-5">
-                                                                            <p>160 degree</p>
-                                                                            </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                            <div class="col-sm-7">
-                                                                                <p>Time ( position )</p>
-                                                                            </div>
-                                                                            <div class="col-sm-5">
-                                                                                <p>2018 : 11am</p>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="row">
-                                                                                <div class="col-sm-7">
-                                                                                    <p>Time ( server )</p>
-                                                                                </div>
-                                                                                <div class="col-sm-5">
-                                                                                    <p>01.2.111.223</p>
-                                                                                    </div>
-                                                                            </div>
-                                                                            <div class="row">
-                                                                                    <div class="col-sm-7">
-                                                                                        <p>Fuel Level</p>
-                                                                                    </div>
-                                                                                    <div class="col-sm-5">
-                                                                                        <p>23 liters</p>
-                                                                                        </div>
-                                                                                </div>
-                                                                                <div class="row">
-                                                                                        <div class="col-sm-7">
-                                                                                            <p>Temperature</p>
-                                                                                        </div>
-                                                                                        <div class="col-sm-5">
-                                                                                            <p>27ºC</p>
-                                                                                            </div>
-                                                                                    </div>
-                                                                                  <div class="box-info w-100">
-                                                                                    <div class="w-25" style="text-align: center;"><i class="fa fa-warning" style="font-size:22px;"></i></div>
-                                                                                    <div class="w-75"><p>Fuel quantity lower than the amount filled at  the depot, Driver stopped for few hour at Ikoyi(  LAT 98.00º )</p></div>
-                                                                                  </div>
-
-
-
-
-                        </div>
-                    </div>
-                    <div class="col-sm-8">
+                    
+                    <div class="col-sm-12">
                         
-                             <div id="map"></div>
+                             <div id="map" style="min-height:75vh;"></div>
                     
                         </div>
                 </div>
@@ -424,33 +292,171 @@
 <script>
    
         function initMap() {
-          var uluru = {lat: 6.4281, lng: 3.4219};
+          var lagos = {lat: 6.4281, lng: 3.4219};
+          var lekki = {lat: 6.4698, lng: 3.5852};
+          var island = {lat: 6.4446, lng: 3.3641};
+          var ibeju = {lat: 6.5165, lng: 3.2597};
+          var baiyeku = {lat: 6.5389, lng: 3.5541};
+          var ibeshe = {lat: 6.5609, lng: 3.4852};
+          var alimosho = {lat: 6.5744, lng: 3.2570};
+          var surulere = {lat: 6.4926, lng: 3.3490};
           var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
-            center: uluru
+            zoom: 11,
+            center: lagos
+            
           });
+          var image = 'https://cdn3.iconfinder.com/data/icons/fuel-and-service/97/Small_service_truck-512.png';
         
           var contentString = '<div id="content">'+
               '<div id="siteNotice">'+
               '</div>'+
-              '<h1 id="firstHeading" class="firstHeading">Lagos</h1>'+
-              '<div id="bodyContent">'+
-              '<p><b>Lagos</b>, also referred to as , is a large '
+              '<div id="bodyContent" class="mt-3">'+
+                    '<p class="f-14"><b>Truck ID:</b> KJA-BDL04</p>'+
+                    '<p><b>Marketer:</b> Wale Johnson</p>'+
+              '<p><b>Capacity:</b> 43,900 Liters</p>'+
+              '<p><b>Last read:</b> 13:00PM</p>'+
+                '<p><a href="#" style="color: #2f02ac;"><b>View More<b> &#8250;</a></p>'
+              +'</div>'+
+              '</div>';
+        
+              var contentStringTwo = '<div id="content">'+
+              '<div id="siteNotice">'+
               '</div>'+
+              '<div id="bodyContent" class="mt-3">'+
+                    '<p class="f-14"><b>Truck ID:</b> KJA-BDL04</p>'+
+                    '<p><b>Marketer:</b>Bisi Yusuf</p>'+
+                    
+              '<p style="color:red;"><b>Cannot find sensor!!!</b></p>'+
+              '<p><b>Last read:</b> 13:00PM</p>'+
+                '<p><a href="#" style="color: #2f02ac;"><b>Report Incidence<b> &#8250;</a></p>'
+              +'</div>'+
               '</div>';
         
           var infowindow = new google.maps.InfoWindow({
             content: contentString
           });
+          var infowindowTwo = new google.maps.InfoWindow({
+            content: contentString
+          });
+          var infowindowThree = new google.maps.InfoWindow({
+            content: contentStringTwo
+          });
+          var infowindowFour = new google.maps.InfoWindow({
+            content: contentStringTwo
+          });
+          var infowindowFive = new google.maps.InfoWindow({
+            content: contentStringTwo
+          });
+        
+          var infowindowSix = new google.maps.InfoWindow({
+            content: contentString
+          });
+          var infowindowSeven = new google.maps.InfoWindow({
+            content: contentStringTwo
+          });
+          var infowindowEight = new google.maps.InfoWindow({
+            content: contentString
+          });
         
           var marker = new google.maps.Marker({
-            position: uluru,
+            position: lagos,
             map: map,
-            title: 'Lagos'
+            title: 'Lagos',
+            icon: {url:'https://cdn3.iconfinder.com/data/icons/fuel-and-service/97/Small_service_truck-512.png', scaledSize: new google.maps.Size(50, 50)}
+
           });
+
+          var markerTwo = new google.maps.Marker({
+            position: lekki,
+            map: map,
+            title: 'Lekki',
+            icon: {url:'https://cdn3.iconfinder.com/data/icons/fuel-and-service/97/Small_service_truck-512.png', scaledSize: new google.maps.Size(50, 50)}
+            
+
+          });
+
+          var markerThree = new google.maps.Marker({
+            position: island,
+            map: map,
+            title: 'island',
+            icon: {url:'https://cdn2.iconfinder.com/data/icons/color-svg-vector-icons-2/512/warning_alert_attention_search-512.png', scaledSize: new google.maps.Size(30, 30)}
+            
+
+          });
+
+          var markerFour = new google.maps.Marker({
+            position: ibeju,
+            map: map,
+            title: 'ibeju',
+            icon: {url:'https://cdn2.iconfinder.com/data/icons/color-svg-vector-icons-2/512/warning_alert_attention_search-512.png', scaledSize: new google.maps.Size(30, 30)}
+            
+
+          });
+          var markerFive = new google.maps.Marker({
+            position: baiyeku,
+            map: map,
+            title: 'ibeju',
+            icon: {url:'https://cdn2.iconfinder.com/data/icons/color-svg-vector-icons-2/512/warning_alert_attention_search-512.png', scaledSize: new google.maps.Size(30, 30)}
+            
+
+          });
+          var markerSix = new google.maps.Marker({
+            position: ibeshe,
+            map: map,
+            title: 'ibeju',
+            icon: {url:'https://cdn3.iconfinder.com/data/icons/fuel-and-service/97/Small_service_truck-512.png', scaledSize: new google.maps.Size(50, 50)}
+            
+
+          });
+          var markerSeven = new google.maps.Marker({
+            position: alimosho,
+            map: map,
+            title: 'ibeju',
+            icon: {url:'https://cdn2.iconfinder.com/data/icons/color-svg-vector-icons-2/512/warning_alert_attention_search-512.png', scaledSize: new google.maps.Size(30, 30)}
+            
+
+          });
+          var markerEight = new google.maps.Marker({
+            position: surulere,
+            map: map,
+            title: 'ibeju',
+            icon: {url:'https://cdn3.iconfinder.com/data/icons/fuel-and-service/97/Small_service_truck-512.png', scaledSize: new google.maps.Size(50, 50)}
+            
+
+          });
+
           marker.addListener('click', function() {
             infowindow.open(map, marker);
           });
+
+          markerTwo.addListener('click', function() {
+            infowindowTwo.open(map, markerTwo);
+          });
+
+         
+          markerThree.addListener('click', function() {
+            infowindowThree.open(map, markerThree);
+          });
+          markerFour.addListener('click', function() {
+            infowindowFour.open(map, markerFour);
+          });
+          markerFive.addListener('click', function() {
+            infowindowFive.open(map, markerFive);
+          });
+          markerSix.addListener('click', function() {
+            infowindowSix.open(map, markerSix);
+          });
+          markerSeven.addListener('click', function() {
+            infowindowSix.open(map, markerSeven);
+          });
+          markerEight.addListener('click', function() {
+            infowindowSix.open(map, markerEight);
+          });
+          
+          
+         
+
+        
         }
                 </script>
             <script async defer
